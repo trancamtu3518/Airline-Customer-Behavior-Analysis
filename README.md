@@ -15,7 +15,7 @@ Dự án được tổ chức theo cấu trúc sau:
   - `processed/`: Dữ liệu đã qua làm sạch, sẵn sàng cho việc phân tích và trực quan hóa (ví dụ: `CAR.csv`, `CPS.csv`).
 - `notebooks/`: Chứa các file Jupyter Notebook về phân tích và xây dựng mô hình:
   - `01_data_exploration.ipynb`: Tiền xử lý dữ liệu, EDA và kiểm định giả thuyết.
-  - `02_modeling_trieu.ipynb` / `version2.ipynb`: Huấn luyện và đánh giá các mô hình học máy (Logistic Regression, Decision Tree, Linear Regression).
+  - `02_modeling.ipynb` / `version2.ipynb`: Huấn luyện và đánh giá các mô hình học máy (Logistic Regression, Decision Tree, Linear Regression).
   - Các hình ảnh xuất ra từ mô hình: biểu đồ phân phối (`target_distribution.png`), ma trận nhầm lẫn (`logistic_confusion_matrix.png`),...
 - `powerbi/` & `Airline-Customer-Behavior-Analysis.pbix`: File Power BI thiết kế dashboard trực quan hóa dữ liệu và báo cáo tương tác.
 - `requirements.txt`: Danh sách các thư viện Python cần thiết để chạy dự án.
